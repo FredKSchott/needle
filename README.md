@@ -1,3 +1,6 @@
+> `pika-needle` is an ES6 module fork of Needle.  It matches the original Needle module described below, except that it is loaded via module `import` instead of Node's commonjs `require()`. See the updated code snippets below for the new import syntax.
+
+
 Needle
 ======
 
@@ -6,7 +9,7 @@ Needle
 The leanest and most handsome HTTP client in the Nodelands.
 
 ```js
-var needle = require('needle');
+import needle from 'pika-needle';
 
 needle.get('http://www.google.com', function(error, response) {
   if (!error && response.statusCode == 200)

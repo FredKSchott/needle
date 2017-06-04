@@ -1,7 +1,7 @@
 {
-  "name": "needle",
+  "name": "pika-needle",
   "version": "1.6.0",
-  "description": "The leanest and most handsome HTTP client in the Nodelands.",
+  "description": "An ES6 module fork of Needle, the leanest and most handsome HTTP client in the Nodelands.",
   "keywords": [
     "http",
     "https",
@@ -16,7 +16,8 @@
     "charset",
     "iconv",
     "cookie",
-    "redirect"
+    "redirect",
+    "pika-package"
   ],
   "tags": [
     "http",
@@ -32,16 +33,16 @@
     "charset",
     "iconv",
     "cookie",
-    "redirect"
+    "redirect",
+    "pika-package"
   ],
-  "author": "Tomás Pollak <tomas@forkhq.com>",
+  "author": "Fred K. Schott",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomas/needle.git"
+    "url": "https://github.com/FredKSchott/pika-needle.git"
   },
   "dependencies": {
-    "debug": "^2.1.2",
-    "iconv-lite": "^0.4.4"
+    "pika-iconv-lite": "^0.4.4"
   },
   "devDependencies": {
     "mocha": "",
@@ -59,11 +60,12 @@
     "lib": "./lib"
   },
   "main": "./lib/needle",
+  "module": "./lib/needle",
   "bin": {
     "needle": "./bin/needle"
   },
   "license": "MIT",
   "engines": {
-    "node": ">= 0.10.x"
+    "node": ">= 8.0.0"
   }
 }
