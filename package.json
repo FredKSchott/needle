@@ -59,7 +59,6 @@
   "directories": {
     "lib": "./lib"
   },
-  "main": "./lib/needle",
   "module": "./lib/needle",
   "bin": {
     "needle": "./bin/needle"
