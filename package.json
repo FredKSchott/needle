@@ -1,6 +1,6 @@
 {
   "name": "pika-needle",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "An ES6 module fork of Needle, the leanest and most handsome HTTP client in the Nodelands.",
   "keywords": [
     "http",
